@@ -1,0 +1,175 @@
+/* Main Container */
+.payment-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    border-radius: 10px;
+     padding-left: 3rem;
+     padding-right: 3rem;
+    padding-bottom: 4rem;
+  }
+  
+  /* Left Section */
+  .progress-section {
+    width: 40%;
+   
+  }
+  
+  .payment-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .payment-amount {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  
+  /* Progress Bar */
+  .progress-bar {
+    display: flex;
+    height: 80px;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 550px;
+  }
+  
+  .bar {
+    height: 100%;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .principal-interest { background-color: #0f6131; border-radius: 999px; }
+  .property-taxes { background-color: #6a40f3;border-radius: 999px }
+  .homeowners-insurance { background-color: #8585e8;border-radius: 999px }
+  .hoa-fees { background-color: #f7c14c;border-radius: 999px }
+  .utilities { background-color: #f97366;border-radius: 999px }
+  
+  /* Right Section - Inputs & Labels */
+  .input-section {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    height: 64px;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .input-group label {
+    font-size: 14px;
+    font-weight: bold;
+    width: 60%;
+    margin-right: 25px;
+  }
+  
+  .input-group input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    width: 40%;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .amount-label {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    width: 45%;
+  }
+  
+  /* Copy estimate button */
+  .estimate-button {
+    display: flex;
+    background: #e0e0e0;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+  }
+  
+  .estimate-button:hover {
+    background: #d6d6d6;
+  }
+  .input-utilities{
+    border-radius: 0.25rem;
+    width:6px;
+    height: 16px;
+    margin-right: 6px;
+  }
+  .green {
+    background-color: #017848;
+  }
+  .blue{
+    background-color: #6e4cf6;
+    width:8px;
+  }
+  .violet{
+    background-color: #8e8eeb;
+    width:8px;
+  }
+  .yellow{
+    background-color: #ffd566;
+    width:8px;
+  }
+  .red{
+    background-color: #FE8B72;
+  }
+  .input-container {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 4px; /* Equivalent to p-2xs */
+    border-radius: 6px; /* Equivalent to rounded-base */
+    background-color: var(--backgroundTertiary);
+    border: 1px solid var(--strokeBorder);
+    height: 48px; /* Equivalent to h-3xl */
+    overflow: hidden;
+    white-space: nowrap;
+    transition: all 0.3s ease-in-out;
+  }
+  
+
+  .input-icon {
+    position: absolute;
+    top: 15px;
+    left: 205px; /* Equivalent to left-xs */
+    z-index: 1;
+    width: 24px; /* Equivalent to w-lg */
+    height: 24px; /* Equivalent to h-lg */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .input-field {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    padding-right: 8px; /* Equivalent to px-sm */
+    padding-left: 32px; /* Equivalent to pl-[32px] */
+    text-align: right;
+    font-weight: bold;
+    font-size: 16px;
+    color: var(--defaultTextColor);
+    border-radius: 4px; /* Equivalent to rounded-sm */
+  }
+  

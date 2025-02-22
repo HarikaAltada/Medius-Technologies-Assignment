@@ -1,0 +1,51 @@
+.table-container {
+    max-width: 1350px;
+    margin: 40px auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .table-container h2 {
+    color: #004d26;
+  }
+  
+  .table-container p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .tax-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .tax-table th {
+    background-color: #004d26;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .tax-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .even-row {
+    background-color: #f9f9f9;
+  }
+  
+  .odd-row {
+    background-color: #e6f2e6;
+  }
+  
+  .table-container a {
+    color: #008c45;
+    text-decoration: none;
+  }
+  
+  .table-container a:hover {
+    text-decoration: underline;
+  }
+  

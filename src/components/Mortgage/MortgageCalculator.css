@@ -1,0 +1,113 @@
+.mortgage-container {
+    margin: auto;
+    background-color: #f7f9f5;
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 4rem;
+  }
+  .mortage-description{
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+    margin: auto;
+    max-width: 1300px;
+  }
+  
+  .mortgage-container h1 {
+    display: flex;
+    font-size: 48px;
+    color: #292b29;
+    letter-spacing: -2px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+  }
+  .monthly-rate{
+    font-size: 35px;
+  }
+  .mortgage-container p {
+    display: flex;
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 30px;
+    margin-bottom: 24px;
+    max-width: 48rem;
+   text-align: start;
+
+  }
+  
+  .mortgage-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .mortgage-left {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .mortgage-right {
+   display: flex;
+   justify-content: space-between
+  }
+  .monthly-title{
+    font-size: 16px;
+    line-height: 1.6;
+    display: block;
+    margin-bottom: 16px;
+    text-align: left;
+  }
+  .monthly-input{
+    font-size: 48px;
+    padding: 4;
+    border-radius: 0.25rem;
+     width:250px;
+     margin-bottom: 20px;
+  }
+  .mortgage-input {
+    width: 80%;
+    padding: 15px;
+    font-size: 18px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    
+  }
+
+  .interest-mortgage{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  input[type="range"] {
+    width: 100%;
+  }
+ 
+  .inputs-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  
+  
+  .down-payment-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .pre-approve-btn {
+    background: #006c3a;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 50px;
+  }
+  
+  .pre-approve-btn:hover {
+    background: #004f2d;
+  }
+  

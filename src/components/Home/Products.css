@@ -1,0 +1,143 @@
+.products-container {
+  text-align: center;
+  padding: 40px;
+  background-color: #f9f9f9;
+}
+
+.products-container h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-left: 22px;
+}
+
+/* Toggle Buttons */
+.toggle-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.toggle-buttons button {
+  padding: 10px 20px;
+  border: 2px solid #004d00;
+  background: transparent;
+  color: #004d00;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.toggle-buttons button.active,
+.toggle-buttons button:hover {
+  background: #004d00;
+  color: white;
+}
+
+/* Product Cards */
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+.wide-card {
+  grid-column: span 1; /* First and Fourth card take more space */
+}
+
+.narrow-card {
+  grid-column: span 2; /* Second and Third cards take normal width */
+}
+.products-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.product-card {
+  background: #eef6eb;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: left;
+  position: relative;
+}
+.product-content-wide {
+  display: flex;
+  flex-direction: column;
+}
+.product-content-narrow {
+  display: flex;
+  flex-direction: row;
+}
+.product-card h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #073126;
+}
+
+.product-card p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.product-link {
+  font-size: 24px;
+  text-decoration: none;
+}
+.product-link span {
+  border: 1px solid #a4a8a4;
+  border-radius: 50%;
+}
+.product-image {
+  border-radius: 20px;
+  margin-top: 10px;
+  padding: 2px;
+}
+
+/* Responsive - Stack narrow cards vertically on small screens */
+@media (max-width: 768px) {
+  .product-content-narrow {
+    flex-direction: column;
+  }
+
+  .wide-card {
+    grid-column: span 1; /* Stack cards evenly on small screens */
+  }
+
+
+.product-card h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #073126;
+}
+
+.product-card p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.product-link {
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.product-link span {
+  border: 1px solid #a4a8a4;
+  border-radius: 50%;
+}
+
+.product-image {
+  border-radius: 20px;
+  margin-top: 10px;
+  padding: 2px;
+}
+.products-header{
+  display: flex;
+  flex-direction: column;
+}
+}

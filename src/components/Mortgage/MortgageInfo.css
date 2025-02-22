@@ -1,0 +1,81 @@
+.mortgage-info-container {
+  padding: 3.5rem 4rem;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  width: 1320px;
+}
+
+.mortgage-info-section {
+  margin: 20px 0;
+}
+
+.mortgage-info-section h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.mortgage-info-section p {
+  font-size: 16px;
+  color: #666;
+}
+
+.mortgage-info-container hr {
+  border: 0;
+  height: 1px;
+  background-color: #c7c9c5;
+  margin: 30px 0;
+}
+
+.mortgage-info-section a {
+  color: green;
+  text-decoration: none;
+}
+
+.mortgage-info-section a:hover {
+  text-decoration: underline;
+}
+/* Debt-to-Income Ratio Section */
+.dti-section {
+  padding: 20px;
+  border-radius: 8px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.dti-formula {
+  display: block;
+  height: auto;
+  width: 780px;
+  vertical-align: middle;
+}
+
+.dti-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.text-primary {
+  font-weight: normal;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.list-disc {
+  margin-left: 2rem;
+  list-style-type: disc;
+}
+
+small {
+  font-size: 14px;
+  color: #666;
+}
+

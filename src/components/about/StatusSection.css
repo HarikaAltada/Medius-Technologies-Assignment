@@ -1,0 +1,74 @@
+.status-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fffdfa;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    padding-bottom: 8rem;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .text-content {
+    width: 50%;
+  }
+  
+  .text-content h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .text-content p {
+    font-size: 16px;
+    color: #565d5a;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .read-story-btn {
+    margin-top: 30px;
+    background-color: #007a33;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .read-story-btn:hover {
+    background-color: #005922;
+  }
+  
+  .video-section {
+    position: relative;
+    width: 45%;
+  }
+  
+  .video-thumbnail {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    display: block;
+  }
+  
+  .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  

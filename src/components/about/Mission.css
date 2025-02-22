@@ -1,0 +1,30 @@
+.mission-container {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+    justify-content: center;
+    background-color: #fffdfa;
+  }
+  
+  .mission-title {
+    color: #017848; /* Green color */
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.2;
+  }
+  
+  .mission-text {
+    color: #1c1c1c;
+    font-size: 48px;
+    font-weight: 600;
+    width: auto;
+    margin: 10px auto;
+    letter-spacing: -2px;
+    line-height: 1.4;
+    text-align: center;
+  }
+  

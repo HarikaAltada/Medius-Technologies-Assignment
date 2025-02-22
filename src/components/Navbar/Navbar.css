@@ -1,0 +1,61 @@
+.about-navbar {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    font-size: 18px;
+    color: black;
+  }
+  
+  .about-logo {
+    font-weight: bold;
+    font-size: 24px;
+    
+  }
+  .about-link{
+    margin-top: 6px;
+  }
+  .about-nav {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    cursor: pointer;
+  }
+  
+  .about-buttons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .about-phone-btn, .about-sign-in, .about-continue-btn {
+    margin-top: 8px;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .about-phone-btn {
+    background: none;
+    font-size: 20px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    height: 50px;
+  }
+  
+  .about-sign-in {
+    background: none;
+
+  }
+  
+  .about-continue-btn {
+    background-color: #017848;
+    color: white;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 999px;
+    font-size: 16px;
+  }

@@ -1,0 +1,276 @@
+/* General Styles */
+.hero {
+  background-color: #004733;
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Navbar */
+.navbar {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  font-size: 18px;
+  color: white;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+}
+.link {
+  margin-top: 6px;
+}
+.nav-links {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.phone-btn,
+.sign-in,
+.continue-btn {
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.phone-btn {
+  background: none;
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 50%;
+  height: 50px;
+}
+
+.sign-in {
+  background: none;
+  color: white;
+}
+
+.continue-btn {
+  background-color: #00ff90;
+  color: #003d23;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 999px;
+  font-size: 16px;
+}
+
+/* Hero Content */
+.hero-content {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  bottom: 19.9%;
+}
+
+h1 {
+  color: #00ff90;
+  font-weight: bold;
+  font-size: 118px;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  letter-spacing: -0.015em;
+  text-align: center;
+  line-height: 1.25;
+  position: relative;
+  top: 1rem; /* top-32 */
+  z-index: 1;
+  padding-top: 3rem; /* pt-12 */
+}
+.hero-btn {
+  width: 15rem;
+  margin-top: 20%;
+}
+.approval-btn {
+  background-color: #00ff90;
+  color: #003d23;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.subtext {
+  margin-top: 10px;
+  font-size: 14px;
+  color: white;
+  margin-left: 10px;
+}
+
+/* Phone Image */
+.phone-display img {
+  width: 480px;
+}
+
+/* Reviews */
+.reviews {
+  margin-top: 20px;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20%;
+  color: white;
+}
+.rating {
+  font-size: 15px;
+}
+.google-icon {
+  margin-right: 5px;
+}
+
+/* Hamburger Menu */
+.hamburger {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+  position: absolute;
+  top: 60px;
+  right: 120px;
+  background: white;
+  width: 200px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  z-index: 100;
+}
+
+.dropdown-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-menu ul li {
+  padding: 10px;
+  cursor: pointer;
+  color: black;
+  border-bottom: 1px solid #ddd;
+}
+
+.dropdown-menu ul li:hover {
+  background: #f1f1f1;
+}
+
+
+
+@media (max-width: 1024px) {
+  .hero {
+    height: 100vh;
+    padding: 10px;
+  }
+
+  .navbar {
+    flex-direction: flex-end;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+    bottom: 0;
+  }
+
+  h1 {
+    font-size: 10vw;
+  }
+
+  .phone-display img {
+    width: 80%;
+  }
+
+  .hero-btn {
+    margin-top: 10%;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    text-align: end;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .hero {
+    height: auto;
+    padding: 5%;
+  }
+
+  h1 {
+    font-size: 8vw;
+  }
+
+  .phone-display img {
+    width: 90%;
+  }
+
+  .approval-btn {
+    width: 80%;
+  }
+  .nav-links {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+  .nav-buttons{
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-links {
+   text-align: end;
+    gap: 10px;
+    font-size: 14px;
+  }
+
+  .phone-btn {
+    font-size: 16px;
+    height: 40px;
+  }
+
+  h1 {
+    font-size: 6vw;
+  }
+  .navbar{
+    flex-direction: flex-end;
+  }
+
+  .phone-display img {
+    width: 100%;
+  }
+
+  .approval-btn {
+    width: 100%;
+  }
+}
